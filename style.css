@@ -67,7 +67,7 @@ body{
 .container{
     display: grid;
     width: 96%;
-    margin: 0 auto;
+    margin: 1 auto;
     gap: 1.8rem;
     grid-template-columns: 14rem auto 23rem;
 }
@@ -388,6 +388,7 @@ main .recent-lecture a{
     color: var(--color-primary);
 }
 
+
 .right{
     margin-top: 1.4rem;
 }
@@ -548,6 +549,10 @@ main .recent-lecture a{
 
     aside .sidebar h3{
         display: none;
+    }
+
+    aside .sidebar{
+        padding-left: 0%;
     }
 
     aside .sidebar a{
