@@ -1,0 +1,15 @@
+login panel 
+attandance
+leave 
+marks
+student data
+student search
+student history
+upload econtent
+mentorship - name,gr-no , reason, samjavya e, number, last-cgpi
+department
+timetable
+notice
+alert
+faculty profile
+log-out
