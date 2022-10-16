@@ -1,0 +1,71 @@
+<div class="card-inner">
+                        <div class="card-upper">
+                            <img src="png/profile-1.jpg" alt="" class="cardimg">
+                            <h1 class="name">Karan Patel</h1>
+                        </div>
+                        <div class="detail">
+                            <h3 class="one">USER-ID : </h3>112383
+                            <h3 class="one">ENROLLMENT NO. : </h3>112383
+                            <h3 class="two">SEMESTER : </h3>112383
+                            <h3 class="two">LAB BATCH : </h3>112383
+                        </div>
+                        <div class="lower-detail">
+                            <h3 class="stream">STREAM : </h3>COMPUTER
+                            <h3 class="email">EMAIL : </h3>kpckpc470@gmail.com
+                            <h3 class="mentor">MENTOR NAME : </h3>OM PRAKASH
+                        </div>
+</div>
+
+
+
+
+
+
+                    img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.card
+{
+    width: 400px;
+    height: 600px;
+}
+.card .card-inner{
+    background-color: var(--color-primary);
+    border-radius: 30px;
+    text-align: center;
+
+}
+
+.card .card-inner .card-upper{
+
+    margin-top: 10px;
+}
+
+
+.card .card-inner .card-upper img{
+
+    padding-top: 10px;
+    width: 10rem;
+    height: 10rem;
+}
+
+.card .card-inner .detail{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card .card-inner .detail .one{
+    height: 1.4rem;
+    border-bottom: 1px solid var(--color-white);
+    margin-left: 2rem;
+    margin-right: 1rem;
+    padding: 0;
+}
+
+.card .card-inner .detail .two{
+    margin-left: 2rem;
+    padding: 0;
+}
